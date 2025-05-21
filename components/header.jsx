@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import netlifyLogo from 'public/netlify-logo.svg';
+import greenCareLogo from 'public/images/greencare-logo.png';
 import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
@@ -14,11 +14,11 @@ const navItems = [
 
 export function Header() {
     return (
-        <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
+        <nav className="flex flex-wrap items-center gap-4 pb-12 pt-6 sm:pt-12 md:pb-24">
             <Link href="/">
-                <Image src={netlifyLogo} alt="Netlify logo" />
+                <Image src={greenCareLogo} alt="GreenCare" />
             </Link>
-            {!!navItems?.length && (
+            {/* {!!navItems?.length && (
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
                     {navItems.map((item, index) => (
                         <li key={index}>
@@ -28,12 +28,12 @@ export function Header() {
                         </li>
                     ))}
                 </ul>
-            )}
+            )} */}
             <Link
                 href="https://github.com/netlify-templates/next-platform-starter"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden lg:inline-flex lg:ml-auto"
+                className="hidden lg:ml-auto lg:inline-flex"
             >
                 <Image src={githubLogo} alt="GitHub logo" className="w-7" />
             </Link>
