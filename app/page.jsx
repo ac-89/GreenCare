@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import { Card } from 'components/card';
-import { ContextAlert } from 'components/context-alert';
-import { Markdown } from 'components/markdown';
-import { RandomQuote } from 'components/random-quote';
 import { getNetlifyContext } from 'utils';
+import { FlexSlider } from 'components/flex-slider';
 
 const contextExplainer = `
 The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
@@ -28,6 +26,7 @@ export default function Page() {
         <div className="flex flex-col gap-12 sm:gap-16">
             <section>
                 {/* <ContextAlert className="mb-6" /> */}
+                <FlexSlider />
                 <h1 className="mb-4">Green Care Landscaping and Paving</h1>
                 {/* <p className="mb-6 text-lg"></p> */}
                 {/* <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="btn btn-lg sm:min-w-64">

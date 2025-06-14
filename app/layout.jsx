@@ -1,4 +1,6 @@
-import '../styles/globals.css';
+import '../styles/custom-style.css';
+import '../styles/app.css';
+
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
 
