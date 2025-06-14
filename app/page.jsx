@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Card } from 'components/card';
 import { getNetlifyContext } from 'utils';
-import { FlexSlider } from 'components/flex-slider';
+import FlexSlideWrapper from 'components/flex-slide-wrapper';
 
 const contextExplainer = `
 The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
@@ -25,45 +25,13 @@ export default function Page() {
     return (
         <div className="flex flex-col gap-12 sm:gap-16">
             <section>
-                {/* <ContextAlert className="mb-6" /> */}
-                <FlexSlider />
+                <FlexSlideWrapper />
                 <h1 className="mb-4">Green Care Landscaping and Paving</h1>
-                {/* <p className="mb-6 text-lg"></p> */}
-                {/* <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="btn btn-lg sm:min-w-64">
-                    Read the Docs
-                </Link> */}
             </section>
-            {/* {!!ctx && (
-                <section className="flex flex-col gap-4">
-                    <Markdown content={contextExplainer} />
-                    <RuntimeContextCard />
-                </section>
-            )} */}
-            {/* <section className="flex flex-col gap-4">
-                <Markdown content={preDynamicContentExplainer} />
-                <RandomQuote />
-                <Markdown content={postDynamicContentExplainer} />
-            </section> */}
+
             <section>
                 <h2>Website coming soon...</h2>
             </section>
         </div>
     );
-}
-
-function RuntimeContextCard() {
-    const title = `Netlify Context: running in ${ctx} mode.`;
-    if (ctx === 'dev') {
-        return (
-            <Card title={title}>
-                <p>Next.js will rebuild any page you navigate to, including static pages.</p>
-            </Card>
-        );
-    } else {
-        return (
-            <Card title={title}>
-                <p>This page was statically-generated at build time.</p>
-            </Card>
-        );
-    }
 }
