@@ -114,7 +114,7 @@ button,
     border-color: rgba(209, 154, 32, 1);
 }
 .wd-footer {
-    background: rgb(44, 44, 44);
+    background: linear-gradient(180deg, rgb(135 194 60) 0px, rgb(60 116 54) 97%);
     background-size: cover;
     background-position: bottom;
 }

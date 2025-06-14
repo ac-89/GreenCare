@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Card } from 'components/card';
 import { getNetlifyContext } from 'utils';
-import FlexSlideWrapper from 'components/flex-slide-wrapper';
+import FlexSlider from 'components/flex-slider';
 
 const contextExplainer = `
 The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
@@ -25,7 +25,7 @@ export default function Page() {
     return (
         <div className="flex flex-col gap-12 sm:gap-16">
             <section>
-                <FlexSlideWrapper />
+                <FlexSlider />
                 <h1 className="mb-4">Green Care Landscaping and Paving</h1>
             </section>
 

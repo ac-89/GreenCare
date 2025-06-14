@@ -44,36 +44,15 @@ export function Header() {
                                             Home
                                         </a>
                                     </li>
-                                    <li id="menu-item-1295" className="has-dropdown not-click">
-                                        <a href="#" className="has-icon">
-                                            pages
+
+                                    <li id="menu-item-1309">
+                                        <a href="about-us.html" className="has-icon">
+                                            About Us
                                         </a>
-                                        <ul className="sub-menu dropdown">
-                                            <li className="title back js-generated">
-                                                <h5>
-                                                    <a href="javascript:void(0)">Back</a>
-                                                </h5>
-                                            </li>
-                                            <li className="parent-link hide-for-medium-up">
-                                                <a className="parent-link js-generated" href="#">
-                                                    pages
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1309">
-                                                <a href="about-us.html" className="has-icon">
-                                                    About Us
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1313">
-                                                <a href="services.html" className="has-icon">
-                                                    Services
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li id="menu-item-1299" className="has-dropdown not-click">
                                         <a href="#" className="has-icon">
-                                            Portfolio
+                                            Services
                                         </a>
                                         <ul className="sub-menu dropdown">
                                             <li className="title back js-generated">
@@ -81,105 +60,43 @@ export function Header() {
                                                     <a href="javascript:void(0)">Back</a>
                                                 </h5>
                                             </li>
-                                            <li className="parent-link hide-for-medium-up">
-                                                <a className="parent-link js-generated" href="#">
-                                                    Portfolio
-                                                </a>
-                                            </li>
+
                                             <li id="menu-item-1300" className="has-dropdown not-click">
-                                                <a href="#" className="has-icon">
-                                                    Style I
-                                                </a>
-                                                <ul className="sub-menu dropdown">
-                                                    <li className="title back js-generated">
-                                                        <h5>
-                                                            <a href="javascript:void(0)">Back</a>
-                                                        </h5>
-                                                    </li>
-                                                    <li className="parent-link hide-for-medium-up">
-                                                        <a className="parent-link js-generated" href="#">
-                                                            Style I
-                                                        </a>
-                                                    </li>
-                                                    <li id="menu-item-1317">
-                                                        <a href="portfolio-columns.html" className="has-icon">
-                                                            Portfolio columns
-                                                        </a>
-                                                    </li>
-                                                    <li id="menu-item-1316">
-                                                        <a href="portfolio-three-columns.html" className="has-icon">
-                                                            Portfolio three columns
-                                                        </a>
-                                                    </li>
-                                                    <li id="menu-item-1315">
-                                                        <a href="portfolio-two.html" className="has-icon">
-                                                            Portfolio Two Columns
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li id="menu-item-1301" className="has-dropdown not-click">
-                                                <a href="#" className="has-icon">
-                                                    Style II
-                                                </a>
-                                                <ul className="sub-menu dropdown">
-                                                    <li className="title back js-generated">
-                                                        <h5>
-                                                            <a href="javascript:void(0)">Back</a>
-                                                        </h5>
-                                                    </li>
-                                                    <li className="parent-link hide-for-medium-up">
-                                                        <a className="parent-link js-generated" href="#">
-                                                            Style II
-                                                        </a>
-                                                    </li>
-                                                    <li id="menu-item-1319">
-                                                        <a
-                                                            href="portfolio-style-ii-two-columns.html"
-                                                            className="has-icon"
-                                                        >
-                                                            Portfolio Style II Two Columns
-                                                        </a>
-                                                    </li>
-                                                    <li id="menu-item-1320">
-                                                        <a
-                                                            href="portfolio-style-ii-three-columns.html"
-                                                            className="has-icon"
-                                                        >
-                                                            Portfolio Style II Theree Columns
-                                                        </a>
-                                                    </li>
-                                                    <li id="menu-item-1321">
-                                                        <a
-                                                            href="portfolio-style-2-four-columns.html"
-                                                            className="has-icon"
-                                                        >
-                                                            Portfolio Style II Four Columns
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li id="menu-item-1302" className="has-dropdown not-click">
-                                                <a href="#" className="has-icon">
-                                                    Single portfolio
-                                                </a>
-                                                <ul className="sub-menu dropdown">
-                                                    <li className="title back js-generated">
-                                                        <h5>
-                                                            <a href="javascript:void(0)">Back</a>
-                                                        </h5>
-                                                    </li>
-                                                    <li className="parent-link hide-for-medium-up">
-                                                        <a className="parent-link js-generated" href="#">
-                                                            Single portfolio
-                                                        </a>
-                                                    </li>
-                                                    <li id="menu-item-1303">
-                                                        <a href="single-portfolio.html" className="has-icon">
-                                                            Single Portfolio
-                                                        </a>
-                                                    </li>
-                                                </ul>
+                                                <li className="parent-link hide-for-medium-up">
+                                                    <a className="parent-link js-generated" href="#">
+                                                        Driveways and Surfacing
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-1317">
+                                                    <a href="portfolio-columns.html" className="has-icon">
+                                                        Patios, Paths and Decking
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-1316">
+                                                    <a href="portfolio-three-columns.html" className="has-icon">
+                                                        Fencing and Structures
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-1315">
+                                                    <a href="portfolio-two.html" className="has-icon">
+                                                        Lawns and Turfing
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-1315">
+                                                    <a href="portfolio-two.html" className="has-icon">
+                                                        Garden Design and Landscaping
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-1315">
+                                                    <a href="portfolio-two.html" className="has-icon">
+                                                        Tree and Hedge Services
+                                                    </a>
+                                                </li>
+                                                <li id="menu-item-1315">
+                                                    <a href="portfolio-two.html" className="has-icon">
+                                                        Clearance and Waste Removal
+                                                    </a>
+                                                </li>
                                             </li>
                                         </ul>
                                     </li>
