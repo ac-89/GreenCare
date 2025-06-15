@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@import 'tailwindcss';
-
 @theme {
     --background-image-noise: linear-gradient(
             to bottom,
@@ -34,7 +32,7 @@
     }
 
     :not(pre) > code {
-        @apply px-1 py-0.5 font-mono rounded bg-neutral-900 text-yellow-200;
+        @apply rounded bg-neutral-900 px-1 py-0.5 font-mono text-yellow-200;
         font-size: 0.9em;
     }
 }
@@ -46,7 +44,7 @@
         }
 
         :where(h1, h2) {
-            @apply mt-12 mb-6;
+            @apply mb-6 mt-12;
         }
 
         > :first-child {
@@ -59,7 +57,7 @@
     }
 
     .btn {
-        @apply inline-flex items-center justify-center gap-2 font-bold text-center no-underline transition-colors cursor-pointer bg-primary text-primary-content;
+        @apply bg-primary text-primary-content inline-flex cursor-pointer items-center justify-center gap-2 text-center font-bold no-underline transition-colors;
         padding: var(--btn-py, 0.875rem) var(--btn-px, 1.25rem);
         font-size: var(--btn-font-size, 0.875rem);
         border-radius: var(--btn-border-radius, 0.25rem);
@@ -69,7 +67,7 @@
         }
 
         &:disabled {
-            @apply cursor-default text-neutral-400 bg-neutral-700;
+            @apply cursor-default bg-neutral-700 text-neutral-400;
         }
     }
 
@@ -80,7 +78,7 @@
     }
 
     .input {
-        @apply px-4 py-3 text-sm border rounded-sm border-neutral-300 text-neutral-900 focus:border-primary focus:outline-3 focus:outline-primary/30;
+        @apply focus:border-primary focus:outline-3 focus:outline-primary/30 rounded-sm border border-neutral-300 px-4 py-3 text-sm text-neutral-900;
     }
 
     .diff {

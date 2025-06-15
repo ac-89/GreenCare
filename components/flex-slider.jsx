@@ -5,6 +5,7 @@ import { useKeenSlider } from 'keen-slider/react';
 import { useEffect, useRef } from 'react';
 
 const images = ['/images/20230804.jpg', '/images/20230813.jpg', '/images/20230818.jpg'];
+const Logo = '/images/greencare-logo-trans.png';
 
 export default function FlexSlider() {
     const sliderRef = useRef(null);
@@ -47,11 +48,16 @@ export default function FlexSlider() {
                     }}
                 >
                     <div className="rounded-xl bg-black/60 p-6 text-center">
+                        <img
+                            src={Logo}
+                            alt="Green Care Landscaping and Paving Logo"
+                            className="mx-auto mb-4 h-24 w-auto"
+                        />
                         <h1 className="mb-4 text-3xl font-bold text-white sm:text-5xl ">
-                            We provide Ultimate Flooring and Paving Services.
+                            For all your landscaping needs
                         </h1>
                         <p className="mb-4 text-lg text-white sm:text-xl">
-                            We make it a priority to offer flexible services to accommodate your needs.
+                            Friendly and reliable service with over 20 years experience
                         </p>
                         <a
                             href="#"

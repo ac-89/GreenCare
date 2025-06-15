@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 meta.foundation-version {
     font-family: '/5.5.3/';
 }
@@ -14314,16 +14315,16 @@ header.navigation {
 .wd-nav-bar .top-bar.expanded {
     height: auto;
 }
-@media only screen and (max-width: 64.28571em) {
+/* @media only screen and (max-width: 64.28571em) {
     .top-bar-section {
         margin: 0;
     }
-}
-@media only screen and (min-width: 64.35714em) and (max-width: 73.14286em) {
+} */
+/* @media only screen and (min-width: 64.35714em) and (max-width: 73.14286em) {
     .top-bar-section {
         margin: 0;
     }
-}
+} */
 .top-bar-section li {
     border-bottom: 1px solid transparent;
 }
@@ -15086,11 +15087,10 @@ section.creative .menu-item .sub-menu {
 .creative-layout .contain-to-grid.sticky {
     position: absolute;
 }
-@media only screen and (min-width: 64.35714em) {
-    .creative-layout .contain-to-grid.sticky {
-        background: linear-gradient(180deg, rgb(135 194 60) 0px, rgb(60 116 54) 97%);
-    }
+.creative-layout .contain-to-grid.sticky {
+    background: linear-gradient(180deg, rgb(135 194 60) 0px, rgb(60 116 54) 97%);
 }
+
 @media only screen and (max-width: 900px) {
     .creative-layout .contain-to-grid.sticky {
         position: inherit;
@@ -15156,11 +15156,11 @@ section.creative .menu-item .sub-menu {
 .creative-layout .top-bar-section ul li {
     background-color: transparent;
 }
-@media only screen and (max-width: 64.28571em) {
+/* @media only screen and (max-width: 64.28571em) {
     .creative-layout .top-bar-section ul li {
         background-color: rgba(0, 0, 0, 0.5);
     }
-}
+} */
 @media only screen and (max-width: 64.28571em) {
     .creative-layout .top-bar .title-area .name {
         margin-top: 0;
@@ -15273,7 +15273,7 @@ section.creative .menu-item .sub-menu {
 }
 @media only screen and (min-width: 64.35714em) and (max-width: 73.14286em) {
     .creative-layout .top-bar-section {
-        float: left !important;
+        /* float: left !important; */
     }
 }
 @media only screen and (max-width: 980px) {
@@ -17377,7 +17377,6 @@ a img.aligncenter {
 }
 .wd-title-section_c h2 {
     font-size: 26px;
-    color: inherit;
 }
 .wd-title-section_c h2::after {
     content: ' ';

@@ -132,7 +132,7 @@ export function Header() {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-1296" className="has-dropdown not-click">
+                                    {/* <li id="menu-item-1296" className="has-dropdown not-click">
                                         <a href="#" className="has-icon">
                                             Element
                                         </a>
@@ -168,7 +168,7 @@ export function Header() {
                                                 </a>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li id="menu-item-1308">
                                         <a href="contact.html" className="has-icon">
                                             Contact
