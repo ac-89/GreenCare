@@ -3,7 +3,8 @@ import { Card } from 'components/card';
 import { getNetlifyContext } from 'utils';
 import FlexSlider from 'components/flex-slider';
 import HomeServices from 'components/home-services';
-
+import CallToAction from 'components/call-to-action';
+import ContactForm from 'components/contact-form';
 const contextExplainer = `
 The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
 ([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
@@ -28,6 +29,8 @@ export default function Page() {
             <section>
                 <FlexSlider />
                 <HomeServices />
+                <CallToAction />
+                <ContactForm />
             </section>
         </div>
     );

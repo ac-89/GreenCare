@@ -8,10 +8,11 @@ export function Footer() {
                     <li>
                         <div className="textwidget">
                             <div className="widget-logo">
-                                <img alt="logo" src="images/greencare-logo-trans.png" />
+                                <img alt="logo" src="/images/greencare-logo-trans.png" />
                                 <p>
-                                    The Flooring inc. is the leader of floor installation and repair in the country sed
-                                    diam nonumy eirmod tempor invidunt ut labore and efficient strategy.
+                                    Green Care Landscaping and Paving is a family-run business with over 20 years of
+                                    experience in the industry. We pride ourselves on providing friendly and reliable
+                                    service to all our customers.
                                 </p>
                             </div>
                         </div>
@@ -30,7 +31,6 @@ export function Footer() {
                                             </a>
                                         </span>
                                     </li>
-
                                     <li>
                                         <span>
                                             <span>Email:</span>
@@ -41,7 +41,7 @@ export function Footer() {
                                     </li>
                                     <li>
                                         <span>
-                                            <span>Adress:</span> 121 King Street, Melbourne 3000 Australia
+                                            <span>Address:</span>
                                         </span>
                                     </li>
                                 </ul>
@@ -49,49 +49,6 @@ export function Footer() {
                         </div>
                     </li>
                 </ul>
-                {/* <ul className="large-4 medium-4 columns animated fadeInRight block" data-animated="fadeInRight">
-                    <li>
-                        <h2 className="block-title">Newsletter</h2>
-                        <div className="textwidget">
-                            <div className="wd-newsletter">
-                                Sign up your newsletter
-                                <div>
-                                    <input
-                                        type="text"
-                                        className="email-adress"
-                                        placeholder="EMAIL ADRESS"
-                                        size="20"
-                                        value=""
-                                        name="email-adress"
-                                    />
-                                    <input type="submit" className="newslettersubmit" value="GO" />
-                                    <ul className="inline-list">
-                                        <li className="flickr">
-                                            <a href="http://www.flickr.com/#">
-                                                <i className="fa fa-flickr"></i>
-                                            </a>
-                                        </li>
-                                        <li className="facebook">
-                                            <a href="https://www.facebook.com/#">
-                                                <i className="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li className="twitter">
-                                            <a href="https://twitter.com/#">
-                                                <i className="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li className="vimeo">
-                                            <a href="https://vimeo.com/#">
-                                                <i className="fa fa-vimeo-square"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul> */}
             </div>
             <footer className="wd-copyright">
                 <div className="row">
@@ -105,7 +62,7 @@ export function Footer() {
                                     <a href="about-us.html">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">Blog</a>
+                                    <a href="blog.html">Services</a>
                                 </li>
                                 <li>
                                     <a href="contact.html">Contact</a>
@@ -114,7 +71,7 @@ export function Footer() {
                         </div>
                     </div>
                     <div className="copyright small-12 large-12 columns">
-                        <p>© 2017 Flooring All rights reserved.</p>
+                        <p>© 2025 All rights reserved.</p>
                     </div>
                 </div>
             </footer>

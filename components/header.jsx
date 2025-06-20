@@ -1,16 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import greenCareLogo from 'public/images/greencare-logo-trans.png';
-import githubLogo from 'public/images/github-mark-white.svg';
 
-const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'classNameics', href: '/classNameics' }
-];
+// const navItems = [
+//     { linkText: 'Home', href: '/' },
+//     { linkText: 'Revalidation', href: '/revalidation' },
+//     { linkText: 'Image CDN', href: '/image-cdn' },
+//     { linkText: 'Edge Function', href: '/edge' },
+//     { linkText: 'Blobs', href: '/blobs' },
+//     { linkText: 'classNameics', href: '/classNameics' }
+// ];
 
 export function Header() {
     return (
@@ -20,7 +18,7 @@ export function Header() {
                     <nav className="top-bar" data-topbar="">
                         {' '}
                         <Link href="/">
-                            <Image src={greenCareLogo} alt="GreenCare" className="logo" />
+                            <img src="/images/greencare-logo-trans.png" alt="GreenCare Logo" className="logo" />
                         </Link>
                         <ul className="title-area">
                             <li className="name">
@@ -31,148 +29,99 @@ export function Header() {
                                 </h1>
                             </li>
                             <li className="toggle-topbar menu-icon">
-                                <a href="#">
+                                <Link href="#" className="has-icon">
                                     <span>Menu</span>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                         <section className="creative top-bar-section right">
                             <div className="menu-main-menu-container">
                                 <ul id="menu-main-menu" className="menu">
                                     <li id="menu-item-1324" className="active_menu">
-                                        <a href="index.html" className="has-icon">
+                                        <Link href="index.html" className="has-icon">
                                             Home
-                                        </a>
+                                        </Link>
                                     </li>
 
                                     <li id="menu-item-1309">
-                                        <a href="about-us.html" className="has-icon">
+                                        <Link href="about-us.html" className="has-icon">
                                             About Us
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li id="menu-item-1299" className="has-dropdown not-click">
-                                        <a href="#" className="has-icon">
+                                        <Link href="/services" className="has-icon">
                                             Services
-                                        </a>
+                                        </Link>
                                         <ul className="sub-menu dropdown">
                                             <li className="title back js-generated">
                                                 <h5>
-                                                    <a href="javascript:void(0)">Back</a>
+                                                    <Link href="javascript:void(0)">Back</Link>
                                                 </h5>
                                             </li>
 
                                             <li id="menu-item-1300" className="has-dropdown not-click">
-                                                <li className="parent-link hide-for-medium-up">
-                                                    <a className="parent-link js-generated" href="#">
-                                                        Driveways and Surfacing
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-1317">
-                                                    <a href="portfolio-columns.html" className="has-icon">
-                                                        Patios, Paths and Decking
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-1316">
-                                                    <a href="portfolio-three-columns.html" className="has-icon">
-                                                        Fencing and Structures
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-1315">
-                                                    <a href="portfolio-two.html" className="has-icon">
-                                                        Lawns and Turfing
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-1315">
-                                                    <a href="portfolio-two.html" className="has-icon">
-                                                        Garden Design and Landscaping
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-1315">
-                                                    <a href="portfolio-two.html" className="has-icon">
-                                                        Tree and Hedge Services
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-1315">
-                                                    <a href="portfolio-two.html" className="has-icon">
-                                                        Clearance and Waste Removal
-                                                    </a>
-                                                </li>
+                                                <ul>
+                                                    <li className="parent-link hide-for-medium-up">
+                                                        <Link
+                                                            className="parent-link js-generated"
+                                                            href="/driveways-and-surfacing"
+                                                        >
+                                                            Driveways and Surfacing
+                                                        </Link>
+                                                    </li>
+                                                    <li id="menu-item-1317">
+                                                        <Link
+                                                            href="/services/patios-paths-and-decking"
+                                                            className="has-icon"
+                                                        >
+                                                            Patios, Paths and Decking
+                                                        </Link>
+                                                    </li>
+                                                    <li id="menu-item-1316">
+                                                        <Link
+                                                            href="/services/fencing-and-structures"
+                                                            className="has-icon"
+                                                        >
+                                                            Fencing and Structures
+                                                        </Link>
+                                                    </li>
+                                                    <li id="menu-item-1315">
+                                                        <Link href="/services/lawns-and-turfing" className="has-icon">
+                                                            Lawns and Turfing
+                                                        </Link>
+                                                    </li>
+                                                    <li id="menu-item-1314">
+                                                        <Link
+                                                            href="/services/garden-design-and-landscaping"
+                                                            className="has-icon"
+                                                        >
+                                                            Garden Design and Landscaping
+                                                        </Link>
+                                                    </li>
+                                                    <li id="menu-item-1315">
+                                                        <Link
+                                                            href="/services/tree-and-hedge-services"
+                                                            className="has-icon"
+                                                        >
+                                                            Tree and Hedge Services
+                                                        </Link>
+                                                    </li>
+                                                    <li id="menu-item-1315">
+                                                        <Link
+                                                            href="/services/clearance-and-waste-removal"
+                                                            className="has-icon"
+                                                        >
+                                                            Clearance and Waste Removal
+                                                        </Link>
+                                                    </li>
+                                                </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-1298" className="has-dropdown not-click">
-                                        <a href="#" className="has-icon">
-                                            Blog
-                                        </a>
-                                        <ul className="sub-menu dropdown">
-                                            <li className="title back js-generated">
-                                                <h5>
-                                                    <a href="javascript:void(0)">Back</a>
-                                                </h5>
-                                            </li>
-                                            <li className="parent-link hide-for-medium-up">
-                                                <a className="parent-link js-generated" href="#">
-                                                    Blog
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1307">
-                                                <a href="blog.html" className="has-icon">
-                                                    classNameical Blog
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1314">
-                                                <a href="blog-columns.html" className="has-icon">
-                                                    Blog Columns
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1297">
-                                                <a href="single-blog.html" className="has-icon">
-                                                    Single Post
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    {/* <li id="menu-item-1296" className="has-dropdown not-click">
-                                        <a href="#" className="has-icon">
-                                            Element
-                                        </a>
-                                        <ul className="sub-menu dropdown">
-                                            <li className="title back js-generated">
-                                                <h5>
-                                                    <a href="javascript:void(0)">Back</a>
-                                                </h5>
-                                            </li>
-                                            <li className="parent-link hide-for-medium-up">
-                                                <a className="parent-link js-generated" href="#">
-                                                    Element
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1312">
-                                                <a href="call-to-action.html" className="has-icon">
-                                                    Call To Action
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1311">
-                                                <a href="pricing-tables.html" className="has-icon">
-                                                    Pricing Tables
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1310">
-                                                <a href="faq.html" className="has-icon">
-                                                    FAQ
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-1318">
-                                                <a href="columns.html" className="has-icon">
-                                                    Columns
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li> */}
                                     <li id="menu-item-1308">
-                                        <a href="contact.html" className="has-icon">
+                                        <Link href="contact.html" className="has-icon">
                                             Contact
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -180,15 +129,6 @@ export function Header() {
                     </nav>
                 </div>
             </header>
-
-            <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden lg:ml-auto lg:inline-flex"
-            >
-                <Image src={githubLogo} alt="GitHub logo" className="w-7" />
-            </Link>
         </nav>
     );
 }

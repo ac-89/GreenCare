@@ -4,7 +4,7 @@ import 'keen-slider/keen-slider.min.css';
 import { useKeenSlider } from 'keen-slider/react';
 import { useEffect, useRef } from 'react';
 
-const images = ['/images/20230804.jpg', '/images/20230813.jpg', '/images/20230818.jpg'];
+const images = ['/images/hero1.jpg', '/images/hero4.jpg', '/images/hero6.jpg'];
 const Logo = '/images/greencare-logo-trans.png';
 
 export default function FlexSlider() {
@@ -53,15 +53,15 @@ export default function FlexSlider() {
                             alt="Green Care Landscaping and Paving Logo"
                             className="mx-auto mb-4 h-24 w-auto"
                         />
-                        <h1 className="mb-4 text-3xl font-bold text-white sm:text-5xl ">
+                        <h1 className="slider-heading mb-4 text-3xl font-bold text-white sm:text-5xl">
                             For all your landscaping needs
                         </h1>
-                        <p className="mb-4 text-lg text-white sm:text-xl">
+                        <p className="slider-paragraph mb-4 text-lg text-white sm:text-xl">
                             Friendly and reliable service with over 20 years experience
                         </p>
                         <a
                             href="#"
-                            className="inline-block rounded-md bg-green-600 px-6 py-3 font-semibold text-white transition hover:bg-green-700"
+                            className="slider-btn inline-block rounded-md bg-green-600 px-6 py-3 font-semibold text-white transition hover:bg-green-700"
                         >
                             Get A Quote Now
                         </a>

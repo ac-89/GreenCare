@@ -16426,7 +16426,7 @@ input.wd-input-strocked-field {
 }
 .call-to-action-wrapper {
     padding: 70px 0;
-    background-color: #b6702a;
+    background-color: #e7bf5f;
 }
 .our-projects {
     padding: 70px 0;
@@ -16452,11 +16452,11 @@ input.wd-input-strocked-field {
     margin-bottom: 35px;
 }
 .our-clients-free-quotes .wd-title-section_l h2 {
-    color: #fff;
+    color: #000;
 }
 .our-clients-free-quotes .wd-title-section_l h5 {
     margin-bottom: 0;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(0, 0, 0, 0.74);
 }
 .our-clients-free-quotes blockquote {
     margin-bottom: 0;
@@ -16592,7 +16592,7 @@ input.wd-input-strocked-field {
     color: #b6702a;
 }
 .portfolio-wrapper {
-    padding: 70px 0;
+    padding: 130px 0;
 }
 .portfolio-wrapper .portfolio-grid li {
     padding-bottom: 0;

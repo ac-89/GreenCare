@@ -16,6 +16,13 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
+
+                <script
+                    async
+                    defer
+                    crossorigin="anonymous"
+                    src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v23.0"
+                ></script>
             </head>
             <body className="bg-blue-900 text-white antialiased">
                 <div className="flex min-h-screen flex-col px-6 sm:px-12">
