@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function HomeServices() {
     return (
         <section className="our-services">
@@ -12,7 +14,7 @@ export default function HomeServices() {
             <div className="row">
                 <div className="small-12 large-4 columns">
                     <div className="wd-section-text-icon">
-                        <a href="#">
+                        <Link href="/services/patios-paths-and-decking">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
                                     <img src="images/patio-home.jpg" alt="icon" />
@@ -25,12 +27,12 @@ export default function HomeServices() {
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="small-12 large-4 columns">
                     <div className="wd-section-text-icon">
-                        <a href="#">
+                        <Link href="/services/fencing-and-structures">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
                                     <img src="images/fencing-home.jpg" alt="icon" />
@@ -43,12 +45,12 @@ export default function HomeServices() {
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="small-12 large-4 columns">
                     <div className="wd-section-text-icon">
-                        <a href="#">
+                        <Link href="/services/lawns-and-turfing">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
                                     <img src="images/lawns-home.jpg" alt="icon" />
@@ -61,14 +63,14 @@ export default function HomeServices() {
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
             <div className="row">
                 <div className="small-12 large-4 columns">
                     <div className="wd-section-text-icon">
-                        <a href="#">
+                        <Link href="/services/garden-design-and-landscaping">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
                                     <img src="images/design-home.jpg" alt="icon" />
@@ -81,12 +83,12 @@ export default function HomeServices() {
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="small-12 large-4 columns">
                     <div className="wd-section-text-icon">
-                        <a href="#">
+                        <Link href="/services/tree-and-hedge-services">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
                                     <img src="images/tree-home.jpg" alt="icon" />
@@ -99,12 +101,12 @@ export default function HomeServices() {
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="small-12 large-4 columns">
                     <div className="wd-section-text-icon">
-                        <a href="#">
+                        <Link href="/services/driveways-and-surfacing">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
                                     <img src="images/driveways-home.jpg" alt="icon" />
@@ -117,7 +119,7 @@ export default function HomeServices() {
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

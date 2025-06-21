@@ -64,7 +64,7 @@ export function Header() {
                                                     <li className="parent-link hide-for-medium-up">
                                                         <Link
                                                             className="parent-link js-generated"
-                                                            href="/driveways-and-surfacing"
+                                                            href="/services//driveways-and-surfacing"
                                                         >
                                                             Driveways and Surfacing
                                                         </Link>
@@ -108,10 +108,10 @@ export function Header() {
                                                     </li>
                                                     <li id="menu-item-1315">
                                                         <Link
-                                                            href="/services/clearance-and-waste-removal"
+                                                            href="/services/driveways-and-surfacing"
                                                             className="has-icon"
                                                         >
-                                                            Clearance and Waste Removal
+                                                            Driveways and Surfacing
                                                         </Link>
                                                     </li>
                                                 </ul>

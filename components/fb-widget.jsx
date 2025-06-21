@@ -12,7 +12,7 @@ export default function FbWidget() {
         <>
             <FacebookSDKLoader />
             <div
-                className="fb-page large-4"
+                className="fb-page large-4 fb_iframe_widget"
                 data-href="https://www.facebook.com/profile.php?id=61576777852955"
                 data-tabs="timeline"
                 data-width="500"

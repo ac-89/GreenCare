@@ -17,10 +17,10 @@ export default async function Services({ params }) {
                     <div className="small-12 large-8 large-offset-2 columns">
                         <div className="wd-title-section_c">
                             <h2> {services[0].category}</h2>
-                            <h5>
+                            {/* <h5>
                                 Neque porro quisquam est qui dolorem ipsum quia lorem ipsum dolor sit amet dolor sit
                                 amet, consectetur, adipisci velit
-                            </h5>
+                            </h5> */}
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ export default async function Services({ params }) {
                                             <img
                                                 width="380"
                                                 height="254"
-                                                src={service.image}
+                                                src={service.image_urls[0]}
                                                 className="attachment-flooring_portfolio size-flooring_portfolio wp-post-image"
                                                 alt=""
                                             />

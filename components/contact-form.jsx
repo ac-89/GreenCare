@@ -17,7 +17,7 @@ export default function ContactForm() {
                                 <input
                                     type="text"
                                     name="your-name"
-                                    value=""
+                                    defaultValue=""
                                     size="40"
                                     className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                     aria-required="true"
@@ -31,7 +31,7 @@ export default function ContactForm() {
                                 <input
                                     type="tel"
                                     name="your-phone"
-                                    value=""
+                                    defaultValue=""
                                     size="40"
                                     className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                     aria-required="true"

@@ -15024,12 +15024,12 @@ section.creative .menu-item .sub-menu {
     width: 100%;
     z-index: 1001;
 }
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
     .creative-layout .contain-to-grid,
     .creative-layout .top-bar {
         position: inherit;
     }
-}
+} */
 .creative-layout .menu-main-menu-container {
     line-height: 1em;
 }
