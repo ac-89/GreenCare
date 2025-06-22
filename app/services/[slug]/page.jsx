@@ -1,11 +1,16 @@
 import React from 'react';
 import servicesData from '/data/services.json';
+export async function generateStaticParams() {
+    return servicesData.map((service) => ({
+        slug: service['category-slug'] || service.slug // Use category-slug or slug as needed
+    }));
+}
 
-export default async function Services({ params }) {
-    const { slug } = await params;
+export default function Services({ params }) {
+    const { slug } = params;
     console.log('Slug:', slug);
     // Filter services based on the slug. If there is no slug, return all services.
-    let services = await servicesData;
+    let services = servicesData;
     !slug ? (services = servicesData) : (services = servicesData.filter((s) => s['category-slug'] === slug));
     console.log('Service:', services);
 
