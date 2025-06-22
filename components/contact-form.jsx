@@ -12,7 +12,7 @@ export default function ContactForm() {
                         </h5>
                     </div>
                     <form name="contact" className="row full-width" netlify="true" data-netlify="true" method="POST">
-                        <input type="hidden" name="contact-form" value="contact" />
+                        <input type="hidden" name="form-name" value="contact" />
                         <div className="small-12 large-6 columns">
                             <span className="wpcf7-form-control-wrap your-name">
                                 <input
