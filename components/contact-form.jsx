@@ -11,7 +11,7 @@ export default function ContactForm() {
                             <span className="wd-title-section_s">Fill out the form below to get started.</span>
                         </h5>
                     </div>
-                    <form name="contact" className="row full-width" netlify="true">
+                    <form name="contact" className="row full-width" netlify="true" data-netlify="true" method="POST">
                         <div className="small-12 large-6 columns">
                             <span className="wpcf7-form-control-wrap your-name">
                                 <input
