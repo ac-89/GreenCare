@@ -12,6 +12,7 @@ export default function ContactForm() {
                         </h5>
                     </div>
                     <form name="contact" className="row full-width" netlify="true" data-netlify="true" method="POST">
+                        <input type="hidden" name="contact-form" value="contact" />
                         <div className="small-12 large-6 columns">
                             <span className="wpcf7-form-control-wrap your-name">
                                 <input
@@ -60,6 +61,11 @@ export default function ContactForm() {
                             />
                             <span className="ajax-loader"></span>
                         </div>
+                    </form>
+                    <form name="contact" netlify hidden>
+                        <input type="text" name="your-name" />
+                        <input type="tel" name="your-phone" />
+                        <textarea name="message"></textarea>
                     </form>
                 </div>
                 <FbWidget />
