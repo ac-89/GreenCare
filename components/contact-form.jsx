@@ -1,5 +1,3 @@
-import FbWidget from './fb-widget';
-
 export default function ContactForm() {
     return (
         <section className="our-clients-free-quotes" id="contact">
@@ -62,13 +60,15 @@ export default function ContactForm() {
                             <span className="ajax-loader"></span>
                         </div>
                     </form>
-                    <form name="contact" netlify hidden>
+                    <form name="contact" netlify="true" hidden>
                         <input type="text" name="your-name" />
                         <input type="tel" name="your-phone" />
                         <textarea name="message"></textarea>
                     </form>
                 </div>
-                <FbWidget />
+                <div className="small-12 large-4 columns contact-img">
+                    <img src="/images/contact.jpg" alt="Contact Us" />
+                </div>
             </div>
         </section>
     );

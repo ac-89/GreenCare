@@ -300,3 +300,16 @@ a:focus {
     margin-bottom: 1rem; /* Add some space below the image */
     object-fit: cover; /* Ensure the image covers the area without distortion */
 }
+
+.contact-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 90px;
+    width: 30%;
+}
+.contact-img img {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add some border radius */
+}

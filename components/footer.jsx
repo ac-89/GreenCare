@@ -1,9 +1,15 @@
 import Link from 'next/link';
+import FbWidget from 'components/fb-widget';
 
 export function Footer() {
     return (
         <section className="wd-footer">
             <div className="row animation-parent" data-animation-delay="180">
+                <ul className="large-4 medium-4 columns animated fadeInRight block" data-animated="fadeInRight">
+                    <li>
+                        <FbWidget />
+                    </li>
+                </ul>
                 <ul className="large-4 medium-4 columns animated fadeInRight block" data-animated="fadeInRight">
                     <li>
                         <div className="textwidget">
@@ -18,6 +24,7 @@ export function Footer() {
                         </div>
                     </li>
                 </ul>
+
                 <ul className="large-4 medium-4 columns animated fadeInRight block" data-animated="fadeInRight">
                     <li>
                         <h2 className="block-title">Get in Touch</h2>
