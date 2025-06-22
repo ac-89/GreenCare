@@ -11,7 +11,7 @@ export default function ContactForm() {
                             <span className="wd-title-section_s">Fill out the form below to get started.</span>
                         </h5>
                     </div>
-                    <form className="row full-width">
+                    <form className="row full-width" netlify>
                         <div className="small-12 large-6 columns">
                             <span className="wpcf7-form-control-wrap your-name">
                                 <input
@@ -45,7 +45,7 @@ export default function ContactForm() {
                                 <textarea
                                     name="message"
                                     cols="10"
-                                    rows="4"
+                                    rows="8"
                                     className="wpcf7-form-control wpcf7-textarea"
                                     aria-invalid="false"
                                     placeholder="Your message"

@@ -33,15 +33,17 @@ export function Footer() {
                                     </li>
                                     <li>
                                         <span>
-                                            <span>Email:</span>
                                             <a href="mailto:email@website.com">
+                                                <span>Email:</span>
                                                 greencarelandscapingandpaving@gmail.com
                                             </a>
                                         </span>
                                     </li>
                                     <li>
                                         <span>
-                                            <span>Address:</span>
+                                            <a href="" target="_blank" rel="noopener noreferrer">
+                                                <span>Location:</span> Dublin, Ireland
+                                            </a>
                                         </span>
                                     </li>
                                 </ul>
@@ -56,16 +58,16 @@ export function Footer() {
                         <div className="copyright-menu">
                             <ul id="menu-footer-menu" className="menu">
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <Link href="/">Home</Link>
                                 </li>
                                 <li>
-                                    <a href="about-us.html">About Us</a>
+                                    <Link href="/about-us">About Us</Link>
                                 </li>
                                 <li>
-                                    <a href="blog.html">Services</a>
+                                    <Link href="/services">Services</Link>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact</a>
+                                    <Link href="/contact">Contact</Link>
                                 </li>
                             </ul>
                         </div>

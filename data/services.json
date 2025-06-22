@@ -16,8 +16,7 @@
         "category-slug": "driveways-and-surfacing",
         "category": "Driveways and Surfacing",
         "description": [
-            "A resin driveway, also known as resin bound surfacing, is a type of driveway construction that utilizes a mixture of natural aggregates (like gravel or stone) and a clear, UV-stable resin binder. This mixture is hand-troweled onto a prepared base, creating a smooth, durable, and permeable surface.",
-            "Resin driveways are known for their attractive appearance, low maintenance requirements, and ability to allow water to drain through, reducing surface water runoff."
+            "A resin driveway, also known as resin bound surfacing, is a type of driveway construction that utilizes a mixture of natural aggregates (like gravel or stone) and a clear, UV-stable resin binder. Resin driveways are known for their attractive appearance, low maintenance requirements, and ability to allow water to drain through, reducing surface water runoff."
         ],
         "image_urls": ["/images/resin.jpg"]
     },
@@ -27,7 +26,7 @@
         "category-slug": "driveways-and-surfacing",
         "category": "Driveways and Surfacing",
         "description": [
-            "Our Concrete gives Driveways, Patios, Pathways & Steps/Kerbs a new lease of life & is much easier to maintain than other materials."
+            "Our Concrete gives Driveways, Patios, Pathways & Steps/Kerbs a new lease of life & is much easier to maintain than other materials.It offers a clean, modern look and can be finished in various styles, such as stamped or stained, to enhance its aesthetic appeal."
         ],
         "image_urls": ["/images/concrete.jpg"]
     },
@@ -37,7 +36,7 @@
         "category-slug": "driveways-and-surfacing",
         "category": "Driveways and Surfacing",
         "description": [
-            "Without proper driveway drainage, water can find its way into your property. By having an efficient driveway drainage system, you can protect your property from potential flooding and related water damage, especially in areas prone to heavy rainfall or cold weather, where melting snow can contribute to water accumulation."
+            "Without proper driveway drainage, water can find its way into your property. By having an efficient driveway drainage system, you can protect your property from potential flooding and related water damage, especially in areas prone to heavy rainfall or cold weather."
         ],
         "image_urls": ["/images/drainage2.jpg"]
     },
@@ -107,8 +106,7 @@
         "category-slug": "fencing-and-structures",
         "category": "Fencing and Structures",
         "description": [
-            "Our walls service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each walls job with care and precision."
+            "Garden walls offer a multitude of benefits, enhancing both the functionality and aesthetics of outdoor spaces. They can be used for erosion control, creating usable space, and improving drainage."
         ],
         "image_urls": ["/images/walls.jpg"]
     },
@@ -118,7 +116,7 @@
         "category-slug": "fencing-and-structures",
         "category": "Fencing and Structures",
         "description": [
-            "Garden lighting offers numerous benefits, including enhanced safety and security, increased usability of outdoor spaces, and aesthetic appeal. By strategically placing lights, you can create a welcoming atmosphere, highlight key features of your garden, and enjoy your outdoor space for longer periods. "
+            "Garden lighting offers numerous benefits, including enhanced safety and security, increased usability of outdoor spaces, and aesthetic appeal. By strategically placing lights, you can create a welcoming atmosphere, and enjoy your outdoor space for longer periods. "
         ],
         "image_urls": ["/images/lighting.jpg"]
     },
@@ -128,29 +126,18 @@
         "category-slug": "lawns-and-turfing",
         "category": "Lawns and Turfing",
         "description": [
-            "Our lawn cutting service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each lawn cutting job with care and precision."
+            "Regular lawn mowing offers several benefits, including a healthier lawn, improved aesthetics, and pest and weed control. It also reduces maintenance costs and can help prevent the spread of diseases and insects. "
         ],
         "image_urls": ["/images/lawn-mowing.jpg"]
     },
-    {
-        "id": "08eb5299-4223-4c30-8b8c-ed28bdd5348a",
-        "name": "Re-Turfing",
-        "category-slug": "lawns-and-turfing",
-        "category": "Lawns and Turfing",
-        "description": [
-            "Whether you need the whole of your lawn re-turfed or you have just bought a new house and it needs a brand new lawn laid, trust our highly skilled and experienced team to advise you on the best course of action and then meet your requirements perfectly. From site clearance to soil preparation and laying, we take care of everything for you and customer satisfaction is guaranteed."
-        ],
-        "image_urls": ["/images/returfing.jpg"]
-    },
+
     {
         "id": "75c21a47-1e2a-4602-ac99-1013e740102c",
-        "name": "New Turf Laying",
+        "name": "Turf Laying",
         "category-slug": "lawns-and-turfing",
         "category": "Lawns and Turfing",
         "description": [
-            "Our new turf laying service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each new turf laying job with care and precision."
+            "Laying new turf offers numerous benefits, including an instant, lush lawn, reduced weed growth, and improved soil stability. It provides an immediate visual appeal, a usable space for children and pets, and can even contribute to better air quality. "
         ],
         "image_urls": ["/images/new-turf.jpg"]
     },
@@ -160,8 +147,7 @@
         "category-slug": "lawns-and-turfing",
         "category": "Lawns and Turfing",
         "description": [
-            "Our artificial lawns service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each artificial lawns job with care and precision."
+            "artificial lawns offer a beautiful, low-maintenance, and durable solution for those seeking a consistently green outdoor space without the ongoing effort and resources required for natural grass."
         ],
         "image_urls": ["/images/artificial-lawn.jpg"]
     },
@@ -171,30 +157,18 @@
         "category-slug": "lawns-and-turfing",
         "category": "Lawns and Turfing",
         "description": [
-            "Our soil preparation service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each soil preparation job with care and precision."
+            "Preparing garden soil before planting offers numerous benefits, including improved drainage, aeration, nutrient availability, and root penetration, all of which contribute to healthier, more productive plants. It also helps to control weeds, pests, and diseases."
         ],
         "image_urls": ["/images/soil-preparation.jpg"]
     },
-    {
-        "id": "933c006e-72e6-4f40-8e01-6cb5225283cb",
-        "name": "Watering",
-        "category-slug": "lawns-and-turfing",
-        "category": "Lawns and Turfing",
-        "description": [
-            "Our watering service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each watering job with care and precision."
-        ],
-        "image_urls": ["/images/watering.jpg"]
-    },
+
     {
         "id": "67de96fa-69fb-48eb-83c5-ef031fa92ab5",
         "name": "Landscaping",
         "category-slug": "garden-design-and-landscaping",
         "category": "Garden Design and Landscaping",
         "description": [
-            "Our landscaping service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each landscaping job with care and precision."
+            "Landscaping can transform a simple yard into an extension of your home, with areas for dining, entertaining, relaxing, or pursuing hobbies. It can also increase property value, improve curb appeal, and create a more functional and enjoyable outdoor space."
         ],
         "image_urls": ["/images/landscaping.jpg"]
     },
@@ -204,8 +178,7 @@
         "category-slug": "garden-design-and-landscaping",
         "category": "Garden Design and Landscaping",
         "description": [
-            "Our gardens renovated & designed service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each gardens renovated & designed job with care and precision."
+            "A renovated garden can appeal to all senses with fragrant plants, soothing water features, varied textures, and vibrant colours, providing a more immersive and therapeutic experience. It can also create a more functional and enjoyable outdoor space."
         ],
         "image_urls": ["/images/design.jpg"]
     },
@@ -215,8 +188,7 @@
         "category-slug": "garden-design-and-landscaping",
         "category": "Garden Design and Landscaping",
         "description": [
-            "Our garden beds, cleaned & weeded service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each garden beds, cleaned & weeded job with care and precision."
+            "weeding flowerbeds is not just about making your garden look good; it's a fundamental practice that directly contributes to the health, vigour, and longevity of your flowers, while also saving you time and effort in the long run and offering personal well-being benefits."
         ],
         "image_urls": ["/images/weeding.jpg"]
     },
@@ -226,8 +198,7 @@
         "category-slug": "garden-design-and-landscaping",
         "category": "Garden Design and Landscaping",
         "description": [
-            "Our flowerbeds service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each flowerbeds job with care and precision."
+            "Flowerbeds introduce a dynamic display of colours, shapes, and textures throughout the seasons. This adds visual interest and vibrancy that a simple lawn or hardscape cannot provide, making your garden more captivating."
         ],
         "image_urls": ["/images/flowerbeds.jpg"]
     },
@@ -237,10 +208,20 @@
         "category-slug": "tree-and-hedge-services",
         "category": "Tree and Hedge Services",
         "description": [
-            "Our tree surgery, dressing & felling service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each tree surgery, dressing & felling job with care and precision."
+            "Tree surgery is a vital investment for maintaining the health, safety, beauty, and value of trees on your property. It's a specialist field that requires professional expertise to achieve the best outcomes and avoid potential hazards."
         ],
         "image_urls": ["/images/tree-surgeon.jpg"]
+    },
+
+    {
+        "id": "ae533baf-b80f-41c9-8c34-32dd4e4b78cc",
+        "name": "Overgrown Gardens Restored",
+        "category-slug": "tree-and-hedge-services",
+        "category": "Tree and Hedge Services",
+        "description": [
+            "By clearing away overgrowth, you can clearly see the 'bones' of the garden – existing pathways, walls, levels, and mature trees or shrubs that might be hidden. This allows you to redesign and define distinct functional areas (e.g., a patio, a flowerbed, a vegetable patch)."
+        ],
+        "image_urls": ["/images/overgrown.jpg"]
     },
     {
         "id": "fd8d0e61-72c1-4293-9a61-d6d4a5292a5c",
@@ -248,20 +229,8 @@
         "category-slug": "tree-and-hedge-services",
         "category": "Tree and Hedge Services",
         "description": [
-            "Our hedge cutting service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each hedge cutting job with care and precision."
+            "Regularly trimmed hedges look smart and well-maintained, contributing significantly to the overall neatness and visual appeal of a garden or property."
         ],
         "image_urls": ["/images/hedge-cutting.jpg"]
-    },
-    {
-        "id": "ae533baf-b80f-41c9-8c34-32dd4e4b78cc",
-        "name": "Overgrown Gardens Restored",
-        "category-slug": "tree-and-hedge-services",
-        "category": "Tree and Hedge Services",
-        "description": [
-            "Our overgrown gardens restored service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
-            "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each overgrown gardens restored job with care and precision."
-        ],
-        "image_urls": ["/images/overgrown.jpg"]
     }
 ]

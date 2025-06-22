@@ -38,13 +38,13 @@ export function Header() {
                             <div className="menu-main-menu-container">
                                 <ul id="menu-main-menu" className="menu">
                                     <li id="menu-item-1324" className="active_menu">
-                                        <Link href="index.html" className="has-icon">
+                                        <Link href="/" className="has-icon">
                                             Home
                                         </Link>
                                     </li>
 
                                     <li id="menu-item-1309">
-                                        <Link href="about-us.html" className="has-icon">
+                                        <Link href="/about-us" className="has-icon">
                                             About Us
                                         </Link>
                                     </li>
@@ -119,7 +119,7 @@ export function Header() {
                                         </ul>
                                     </li>
                                     <li id="menu-item-1308">
-                                        <Link href="contact.html" className="has-icon">
+                                        <Link href="/contact" className="has-icon">
                                             Contact
                                         </Link>
                                     </li>

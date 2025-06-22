@@ -5,7 +5,7 @@ export default async function Services({ params }) {
     const { slug } = await params;
     console.log('Slug:', slug);
     // Filter services based on the slug. If there is no slug, return all services.
-    let services;
+    let services = await servicesData;
     !slug ? (services = servicesData) : (services = servicesData.filter((s) => s['category-slug'] === slug));
     console.log('Service:', services);
 

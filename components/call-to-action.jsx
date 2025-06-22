@@ -2,12 +2,21 @@ export default function CallToAction() {
     return (
         <section className="call-to-action-wrapper">
             <div className="row">
-                <div className="small-12 large-12 columns text-center">
-                    <h4 className="call-to-action-heading">Call us Now.</h4>
-                    <a href="tel:0852439522" className="call-to-action-phone">
-                        {' '}
-                        085 243 9522
-                    </a>
+                <div className="small-12 large-12 columns cta-container text-center">
+                    <div className="cta">
+                        <h4 className="call-to-action-heading">Call us Now.</h4>
+                        <a href="tel:0852439522" className="call-to-action-phone">
+                            {' '}
+                            085 243 9522
+                        </a>
+                    </div>
+                    <div className="cta">
+                        <h4 className="call-to-action-heading">Email us Now.</h4>
+                        <a href="mailto:greencarelandscapingandpaving@gmail.com" className="call-to-action-email">
+                            {' '}
+                            greencarelandscapingandpaving@gmail.com
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
