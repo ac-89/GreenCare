@@ -42,12 +42,6 @@ export function Header() {
                                             Home
                                         </Link>
                                     </li>
-
-                                    <li id="menu-item-1309">
-                                        <Link href="/about-us" className="has-icon">
-                                            About Us
-                                        </Link>
-                                    </li>
                                     <li id="menu-item-1299" className="has-dropdown not-click">
                                         <Link href="/services" className="has-icon">
                                             Services

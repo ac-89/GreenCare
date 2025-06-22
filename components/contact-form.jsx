@@ -2,7 +2,7 @@ import FbWidget from './fb-widget';
 
 export default function ContactForm() {
     return (
-        <section className="our-clients-free-quotes">
+        <section className="our-clients-free-quotes" id="contact">
             <div className="row">
                 <div className="small-12 large-8 columns">
                     <div className="wd-title-section_l">
@@ -11,7 +11,7 @@ export default function ContactForm() {
                             <span className="wd-title-section_s">Fill out the form below to get started.</span>
                         </h5>
                     </div>
-                    <form className="row full-width" netlify>
+                    <form className="row full-width" netlify="true">
                         <div className="small-12 large-6 columns">
                             <span className="wpcf7-form-control-wrap your-name">
                                 <input

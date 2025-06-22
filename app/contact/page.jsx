@@ -5,8 +5,8 @@ export default function Contact() {
     return (
         <>
             <ContactPageHeader />
-            <ContactForm />
             <CallToAction />
+            <ContactForm />
         </>
     );
 }

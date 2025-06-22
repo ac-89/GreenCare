@@ -60,7 +60,7 @@ export default function FlexSlider() {
                             Friendly and reliable service with over 20 years experience
                         </p>
                         <a
-                            href="#"
+                            href="/contact"
                             className="slider-btn inline-block rounded-md bg-green-600 px-6 py-3 font-semibold text-white transition hover:bg-green-700"
                         >
                             Get A Quote Now

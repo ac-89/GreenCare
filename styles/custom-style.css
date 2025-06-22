@@ -235,7 +235,7 @@ a:focus {
     flex-direction: row; /* flex-col */
     align-items: center; /* items-center */
     justify-content: center; /* justify-center */
-    background-color: #87c23c; /* bg-green-600 */
+    background: linear-gradient(180deg, rgb(135 194 60) 0px, rgb(60 116 54) 97%); /* bg-green-600 */
     padding: 3rem 1.5rem; /* px-6 py-12 */
     text-align: center; /* text-center */
 }
@@ -243,6 +243,7 @@ a:focus {
 .call-to-action-heading {
     /* mb-4 text-3xl font-bold text-white sm:text-4xl */
     margin-bottom: 1rem; /* mb-4 */
+    border-bottom: #e7be63 solid 2px; /* Add a bottom border */
     font-size: 1.875rem; /* text-3xl */
     font-weight: 700; /* font-bold */
     color: #ffffff; /* text-white */
