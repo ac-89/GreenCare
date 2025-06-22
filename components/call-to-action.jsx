@@ -4,14 +4,14 @@ export default function CallToAction() {
             <div className="row">
                 <div className="small-12 large-12 columns cta-container text-center">
                     <div className="cta">
-                        <h4 className="call-to-action-heading">Call us Now.</h4>
+                        <h4 className="call-to-action-heading">Call us.</h4>
                         <a href="tel:0852439522" className="call-to-action-phone">
                             {' '}
                             085 243 9522
                         </a>
                     </div>
                     <div className="cta">
-                        <h4 className="call-to-action-heading">Email us Now.</h4>
+                        <h4 className="call-to-action-heading">Email us.</h4>
                         <a href="mailto:greencarelandscapingandpaving@gmail.com" className="call-to-action-email">
                             {' '}
                             greencarelandscapingandpaving@gmail.com

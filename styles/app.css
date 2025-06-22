@@ -14069,10 +14069,10 @@ header.navigation {
 .wd-title-bar div h5 {
     color: #fff;
 }
-.wd-footer {
+/* .wd-footer {
     background: #383838;
     color: #fff;
-}
+} */
 .wd-copyright {
     text-align: center;
     padding-top: 15px;
@@ -16426,7 +16426,6 @@ input.wd-input-strocked-field {
 }
 .call-to-action-wrapper {
     padding: 70px 0;
-    background-color: #e7bf5f;
 }
 .our-projects {
     padding: 70px 0;
