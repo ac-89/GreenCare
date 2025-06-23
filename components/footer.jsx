@@ -42,7 +42,7 @@ export function Footer() {
                                         <span>
                                             <a href="mailto:email@website.com">
                                                 <span>Email:</span>
-                                                greencarelandscapingandpaving@gmail.com
+                                                greencarelandscapingand paving@gmail.com
                                             </a>
                                         </span>
                                     </li>

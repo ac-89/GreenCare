@@ -269,6 +269,9 @@ a:focus {
     @media (min-width: 980px) {
         font-size: 1.75rem; /* sm:text-xl */
     }
+    @media (max-width: 480px) {
+        font-size: 1rem; /* sm:text-xl */
+    }
 
     line-height: 1.75; /* leading-7 */
     font-weight: 700; /* font-normal */
@@ -321,6 +324,12 @@ a:focus {
     align-items: flex-end;
     padding-top: 90px;
     width: 30%;
+}
+@media screen and (max-width: 1175px) {
+    .contact-img {
+        width: 100%; /* Full width on smaller screens */
+        padding-top: 20px; /* Adjust padding for smaller screens */
+    }
 }
 .contact-img img {
     width: 100%; /* Adjust as needed */
@@ -400,4 +409,12 @@ a:focus {
 /* Styling of overlay */
 .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+}
+
+* {
+    border: solid 1px red;
+}
+
+.w-full {
+    width: 100%;
 }

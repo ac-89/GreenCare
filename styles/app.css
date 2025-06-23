@@ -316,8 +316,8 @@ select {
     .column,
     .columns {
         position: relative;
-        padding-left: 1.07143rem;
-        padding-right: 1.07143rem;
+        padding-left: 3.07143rem;
+        padding-right: 3.07143rem;
         float: left;
     }
     .small-1 {
@@ -17391,7 +17391,6 @@ a img.aligncenter {
     color: #888;
     margin: 0 auto;
     font-weight: normal;
-    width: 300px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -17660,6 +17659,16 @@ ul.wpb_thumbnails-fluid > li,
 }
 .widget-info li {
     line-height: 32px;
+}
+@media screen and (max-width: 720px) {
+    .widget-info li span {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 1520px) {
+    .widget-info li span {
+        font-size: 10px;
+    }
 }
 .widget-info span {
     color: rgba(255, 255, 255, 0.75);

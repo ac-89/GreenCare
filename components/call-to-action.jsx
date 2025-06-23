@@ -14,7 +14,9 @@ export default function CallToAction() {
                         <h4 className="call-to-action-heading">Email us.</h4>
                         <a href="mailto:greencarelandscapingandpaving@gmail.com" className="call-to-action-email">
                             {' '}
-                            greencarelandscapingandpaving@gmail.com
+                            greencarelandscapingand
+                            <br />
+                            paving@gmail.com
                         </a>
                     </div>
                 </div>
