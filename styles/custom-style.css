@@ -239,6 +239,13 @@ a:focus {
     padding: 3rem 1.5rem; /* px-6 py-12 */
     text-align: center; /* text-center */
 }
+@media screen and (min-width: 980px) {
+    .call-to-action-wrapper {
+        padding: 3rem 2rem; /* Adjust padding for larger screens */
+        display: flex;
+        flex-direction: column; /* Change to row layout for larger screens */
+    }
+}
 
 .call-to-action-heading {
     /* mb-4 text-3xl font-bold text-white sm:text-4xl */
@@ -247,8 +254,8 @@ a:focus {
     font-size: 1.875rem; /* text-3xl */
     font-weight: 700; /* font-bold */
     color: #ffffff; /* text-white */
-    @media (min-width: 640px) {
-        font-size: 2.25rem; /* sm:text-4xl */
+    @media (min-width: 980px) {
+        font-size: 1.75rem; /* sm:text-4xl */
     }
     line-height: 2.5; /* leading-10 */
     text-align: center; /* text-center */
@@ -259,9 +266,10 @@ a:focus {
     margin-bottom: 1rem; /* mb-4 */
     font-size: 2.125rem; /* text-lg */
     color: #ffffff; /* text-white */
-    @media (min-width: 640px) {
-        font-size: 2.25rem; /* sm:text-xl */
+    @media (min-width: 980px) {
+        font-size: 1.75rem; /* sm:text-xl */
     }
+
     line-height: 1.75; /* leading-7 */
     font-weight: 700; /* font-normal */
     text-align: center; /* text-center */
@@ -273,6 +281,12 @@ a:focus {
     flex-direction: row; /* flex-col */
     align-items: center; /* items-center */
     justify-content: space-around; /* justify-center */
+}
+
+@media screen and (max-width: 840px) {
+    .cta-container {
+        flex-direction: column; /* Change to row layout for larger screens */
+    }
 }
 
 .contact-page-header {
@@ -312,4 +326,78 @@ a:focus {
     width: 100%; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Add some border radius */
+}
+
+@media screen and (min-width: 981px) {
+    .bm-burger-button {
+        display: none;
+    }
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+}
+.bm-burger-bars {
+    background: #fff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #e7be63;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: #69a33a;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
 }

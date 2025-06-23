@@ -1,22 +1,12 @@
-import Image from 'next/image';
 import Link from 'next/link';
-
-// const navItems = [
-//     { linkText: 'Home', href: '/' },
-//     { linkText: 'Revalidation', href: '/revalidation' },
-//     { linkText: 'Image CDN', href: '/image-cdn' },
-//     { linkText: 'Edge Function', href: '/edge' },
-//     { linkText: 'Blobs', href: '/blobs' },
-//     { linkText: 'classNameics', href: '/classNameics' }
-// ];
-
+import Menu from 'components/burger-menu';
 export function Header() {
     return (
         <nav className="flex flex-wrap items-center gap-4 pb-12 pt-6 sm:pt-12 md:pb-24">
             <header className="l-header creative-layout">
                 <div className="top-bar-container contain-to-grid sticky">
                     <nav className="top-bar" data-topbar="">
-                        {' '}
+                        <Menu />{' '}
                         <Link href="/">
                             <img src="/images/greencare-logo-trans.png" alt="GreenCare Logo" className="logo" />
                         </Link>

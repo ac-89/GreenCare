@@ -15294,6 +15294,7 @@ section.creative .menu-item .sub-menu {
     .creative .top-bar-section {
         width: 100%;
         background: #fff;
+        border: solid 1px #e5e5e5;
     }
     .wd_mega-menu > .sub-menu.dropdown > li {
         display: block;
