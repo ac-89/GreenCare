@@ -1,5 +1,6 @@
 import React from 'react';
 import servicesData from '/data/services.json';
+import Link from 'next/link';
 export async function generateStaticParams() {
     return servicesData.map((service) => ({
         slug: service['category-slug'] || service.slug // Use category-slug or slug as needed
@@ -29,6 +30,16 @@ export default function Services({ params }) {
                         </div>
                     </div>
                 </div>
+                {/* back button */}
+                <div className="row">
+                    <div className="small-12 large-12 columns">
+                        <div className="wd-back-button">
+                            <Link href="/services" className="button small radius">
+                                Back to Services
+                            </Link>
+                        </div>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="small-12 large-12 columns">
                         <div className="wd-section-project">
@@ -43,9 +54,9 @@ export default function Services({ params }) {
                                                 className="attachment-flooring_portfolio size-flooring_portfolio wp-post-image"
                                                 alt=""
                                             />
-                                            <a href={`/services/${service.slug}`}>
+                                            <Link href={`/contact`}>
                                                 <h4>{service.name}</h4>
-                                            </a>
+                                            </Link>
                                             <p> {service.description}</p>
                                         </div>
                                     </li>
