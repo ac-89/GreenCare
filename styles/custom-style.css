@@ -411,9 +411,9 @@ a:focus {
     background: rgba(0, 0, 0, 0.3);
 }
 
-* {
+/* * {
     border: solid 1px red;
-}
+} */
 
 .w-full {
     width: 100%;
