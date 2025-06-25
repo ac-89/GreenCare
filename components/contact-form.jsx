@@ -39,7 +39,7 @@ export default function ContactForm() {
                                 />
                             </span>
                         </div>
-                        {/* email */}
+
                         <div className="small-12 large-12 columns">
                             <span className="wpcf7-form-control-wrap your-email">
                                 <input
