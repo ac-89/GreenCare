@@ -52,7 +52,7 @@ export default function Services({ params }) {
                                                 height="254"
                                                 src={service.image_urls[0]}
                                                 className="attachment-flooring_portfolio size-flooring_portfolio wp-post-image"
-                                                alt=""
+                                                alt={service['image_alt']}
                                             />
                                             <Link href={`/contact`}>
                                                 <h4>{service.name}</h4>

@@ -17,7 +17,10 @@ export default function HomeServices() {
                         <Link href="/services/patios-paths-and-decking">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
-                                    <img src="images/patio-home.jpg" alt="icon" />
+                                    <img
+                                        src="images/patio-home.jpg"
+                                        alt="A glossy black stone patio next to a lush green lawn."
+                                    />
                                 </div>
                                 <div className="box-description">
                                     <h3>Patios, paths and Decking</h3>
@@ -35,7 +38,10 @@ export default function HomeServices() {
                         <Link href="/services/fencing-and-structures">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
-                                    <img src="images/fencing-home.jpg" alt="icon" />
+                                    <img
+                                        src="images/fencing-home.jpg"
+                                        alt="A wooden fence with a natural finish, providing privacy and security."
+                                    />
                                 </div>
                                 <div className="box-description">
                                     <h3>Fencing and Structures</h3>
@@ -53,7 +59,10 @@ export default function HomeServices() {
                         <Link href="/services/lawns-and-turfing">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
-                                    <img src="images/lawns-home.jpg" alt="icon" />
+                                    <img
+                                        src="images/lawns-home.jpg"
+                                        alt="A lush green lawn providing lots of open space."
+                                    />
                                 </div>
                                 <div className="box-description">
                                     <h3>Lawns and Turfing</h3>
@@ -73,7 +82,7 @@ export default function HomeServices() {
                         <Link href="/services/garden-design-and-landscaping">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
-                                    <img src="images/design-home.jpg" alt="icon" />
+                                    <img src="images/design-home.jpg" alt="An aerial shot of a vibrant flowerbed" />
                                 </div>
                                 <div className="box-description">
                                     <h3>Garden Design and Landscaping</h3>
@@ -91,7 +100,7 @@ export default function HomeServices() {
                         <Link href="/services/tree-and-hedge-services">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
-                                    <img src="images/tree-home.jpg" alt="icon" />
+                                    <img src="images/tree-home.jpg" alt="A beautifully manicured hedge." />
                                 </div>
                                 <div className="box-description">
                                     <h3>Tree and Hedge Services</h3>
@@ -109,7 +118,10 @@ export default function HomeServices() {
                         <Link href="/services/driveways-and-surfacing">
                             <div className="wd-text-icon-style5 animated fadeInUp text-center" data-animated="fadeInUp">
                                 <div className="box-icon">
-                                    <img src="images/driveways-home.jpg" alt="icon" />
+                                    <img
+                                        src="images/driveways-home.jpg"
+                                        alt="A newly paved driveway with a modern design."
+                                    />
                                 </div>
                                 <div className="box-description">
                                     <h3>Driveways and Surfacing</h3>

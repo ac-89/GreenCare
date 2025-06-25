@@ -7,7 +7,7 @@ import { Header } from '../components/header';
 export const metadata = {
     title: {
         template: '%s | Netlify',
-        default: 'Green Care Landscaping and Paving'
+        default: 'Landscaping, Driveways & Garden Services in Dublin | Expert Outdoor Solutions'
     }
 };
 
@@ -16,6 +16,12 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
+
+                <meta
+                    name="description"
+                    content="Professional garden design, landscaping, driveways, and outdoor maintenance services in Dublin. From patios to tree surgery, we transform outdoor spaces with expert care and quality materials. Get in touch for a free quote today."
+                />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
 
                 <script
                     async

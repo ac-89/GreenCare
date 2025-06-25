@@ -8,7 +8,8 @@
             "Our paving driveways service is tailored to provide the highest standard of workmanship, ensuring a professional and polished result every time. We take the time to understand your needs and deliver results that exceed expectations.",
             "Whether you're looking to maintain your property, refresh your outdoor space, or start a complete transformation, our team is ready to help. With years of experience and a passion for quality, we handle each paving job with care and precision."
         ],
-        "image_urls": ["/images/driveways575.jpg"]
+        "image_urls": ["/images/driveways575.jpg"],
+        "image_alt": "A newly paved driveway with a modern design, showcasing the quality of our paving services."
     },
     {
         "id": "cdcbbfe6-4c19-4e40-b10d-d3e8b8032349",
@@ -18,7 +19,8 @@
         "description": [
             "A resin driveway, also known as resin bound surfacing, is a type of driveway construction that utilizes a mixture of natural aggregates (like gravel or stone) and a clear, UV-stable resin binder. Resin driveways are known for their attractive appearance, low maintenance requirements, and ability to allow water to drain through, reducing surface water runoff."
         ],
-        "image_urls": ["/images/resin575.jpg"]
+        "image_urls": ["/images/resin575.jpg"],
+        "image_alt": "A beautiful resin driveway with a smooth finish."
     },
     {
         "id": "6e91b61e-d94e-4196-83ab-af88c56cb41a",
@@ -28,7 +30,8 @@
         "description": [
             "Our Concrete gives Driveways, Patios, Pathways & Steps/Kerbs a new lease of life & is much easier to maintain than other materials.It offers a clean, modern look and can be finished in various styles, such as stamped or stained, to enhance its aesthetic appeal."
         ],
-        "image_urls": ["/images/concrete575.jpg"]
+        "image_urls": ["/images/concrete575.jpg"],
+        "image_alt": "A worker smoothing out a freshly poured concrete driveway."
     },
     {
         "id": "6679a081-6f2f-4a9b-8f41-b02fdce2f509",
@@ -38,7 +41,8 @@
         "description": [
             "Without proper driveway drainage, water can find its way into your property. By having an efficient driveway drainage system, you can protect your property from potential flooding and related water damage, especially in areas prone to heavy rainfall or cold weather."
         ],
-        "image_urls": ["/images/drainage2575.jpg"]
+        "image_urls": ["/images/drainage2575.jpg"],
+        "image_alt": "A well-designed driveway drainage system, preventing water accumulation and protecting the property."
     },
     {
         "id": "da879761-091a-4a43-baaf-e86fc7c8d9a3",
@@ -48,7 +52,8 @@
         "description": [
             "Whether you desire a cosy outdoor retreat, a sophisticated entertainment area, or a durable family space, we are equipped to bring your vision to life. Our comprehensive range of surfacing materials allows us to design patios that are not only beautiful but also functional."
         ],
-        "image_urls": ["/images/patio575.jpg"]
+        "image_urls": ["/images/patio575.jpg"],
+        "image_alt": "A beautifully designed patio with stone slabs in multiple shades of brown."
     },
     {
         "id": "3bb38d7c-8f6b-4c55-b64d-ec66bd906e0b",
@@ -58,7 +63,8 @@
         "description": [
             "From winding trails to straight, narrow passageways – every garden can benefit from a path. They add structure and dimension, invite exploration, and guide you through your own patch of paradise. "
         ],
-        "image_urls": ["/images/paths575.jpg"]
+        "image_urls": ["/images/paths575.jpg"],
+        "image_alt": "A charming garden path winding through lush greenery, inviting exploration."
     },
     {
         "id": "84bcb418-0281-43b2-b40c-7bcfd631fc8e",
@@ -68,7 +74,8 @@
         "description": [
             "One of the best ways to add extra value to your home is with a beautiful garden decking solution. A professionally constructed deck acts as the perfect feature for your landscaping garden design. "
         ],
-        "image_urls": ["/images/decking575.jpg"]
+        "image_urls": ["/images/decking575.jpg"],
+        "image_alt": "A stunning garden deck with a lush green lawn."
     },
     {
         "id": "328f19c3-5e6b-43fc-a93d-197791a005df",
@@ -78,7 +85,8 @@
         "description": [
             "By using lawn edging garden products, you can easily divide your outdoor space. They can also be used to define the front perimeter of your property using a choice of robust or flexible materials. "
         ],
-        "image_urls": ["/images/edging575.jpg"]
+        "image_urls": ["/images/edging575.jpg"],
+        "image_alt": "A well-defined garden edge with wooden beams."
     },
     {
         "id": "0df8045e-addc-495e-9f62-c129219b9124",
@@ -88,7 +96,8 @@
         "description": [
             "Garden fencing offers numerous benefits, including enhanced privacy, increased security, defined property boundaries, and aesthetic appeal. It can also act as a windbreak, reduce noise, and provide a safe space for children and pets. "
         ],
-        "image_urls": ["/images/fencing575.jpg"]
+        "image_urls": ["/images/fencing575.jpg"],
+        "image_alt": "A tall garden fence made of wood, providing privacy and security."
     },
     {
         "id": "333aaade-9e4b-4ae1-9284-a4c77f75eb5a",
@@ -98,7 +107,8 @@
         "description": [
             "Pergolas excel in enhancing outdoor living spaces by providing shade and increasing aesthetic appeal. They can also increase property value and create defined areas for relaxation and entertainment."
         ],
-        "image_urls": ["/images/pergola575.jpg"]
+        "image_urls": ["/images/pergola575.jpg"],
+        "image_alt": "A wooden canopy looking out on a clear lawn."
     },
     {
         "id": "c37f8c50-330e-4417-81f4-d4e64204a0dc",
@@ -108,7 +118,8 @@
         "description": [
             "Garden walls offer a multitude of benefits, enhancing both the functionality and aesthetics of outdoor spaces. They can be used for erosion control, creating usable space, and improving drainage."
         ],
-        "image_urls": ["/images/walls575.jpg"]
+        "image_urls": ["/images/walls575.jpg"],
+        "image_alt": "A worker applying a finishing coat to a garden wall."
     },
     {
         "id": "052a047c-2ae0-4283-a252-d535552f697a",
@@ -118,7 +129,8 @@
         "description": [
             "Garden lighting offers numerous benefits, including enhanced safety and security, increased usability of outdoor spaces, and aesthetic appeal. By strategically placing lights, you can create a welcoming atmosphere, and enjoy your outdoor space for longer periods. "
         ],
-        "image_urls": ["/images/lighting575.jpg"]
+        "image_urls": ["/images/lighting575.jpg"],
+        "image_alt": "A beautifully lit garden pathway at night, creating a warm and inviting atmosphere."
     },
     {
         "id": "f87fe6a2-f10c-481e-be03-cc0256852d89",
@@ -128,7 +140,8 @@
         "description": [
             "Regular lawn mowing offers several benefits, including a healthier lawn, improved aesthetics, and pest and weed control. It also reduces maintenance costs and can help prevent the spread of diseases and insects. "
         ],
-        "image_urls": ["/images/lawn-mowing575.jpg"]
+        "image_urls": ["/images/lawn-mowing575.jpg"],
+        "image_alt": "A well-manicured lawn being mowed."
     },
 
     {
@@ -139,7 +152,8 @@
         "description": [
             "Laying new turf offers numerous benefits, including an instant, lush lawn, reduced weed growth, and improved soil stability. It provides an immediate visual appeal, a usable space for children and pets, and can even contribute to better air quality. "
         ],
-        "image_urls": ["/images/new-turf575.jpg"]
+        "image_urls": ["/images/new-turf575.jpg"],
+        "image_alt": "Freshly laid turf rolls."
     },
     {
         "id": "8e618a56-59eb-48b8-8e4d-ec8383b9d70d",
@@ -149,7 +163,8 @@
         "description": [
             "artificial lawns offer a beautiful, low-maintenance, and durable solution for those seeking a consistently green outdoor space without the ongoing effort and resources required for natural grass."
         ],
-        "image_urls": ["/images/artificial-lawn575.jpg"]
+        "image_urls": ["/images/artificial-lawn575.jpg"],
+        "image_alt": "A lush artificial lawn, demonstrating the benefits of synthetic grass."
     },
     {
         "id": "9d5c0f9f-403a-4901-84f8-b1a2eb8ee19f",
@@ -159,7 +174,8 @@
         "description": [
             "Preparing garden soil before planting offers numerous benefits, including improved drainage, aeration, nutrient availability, and root penetration, all of which contribute to healthier, more productive plants. It also helps to control weeds, pests, and diseases."
         ],
-        "image_urls": ["/images/soil-preparation575.jpg"]
+        "image_urls": ["/images/soil-preparation575.jpg"],
+        "image_alt": "Well-prepared garden soil, ready for planting. a protective plastic cover is placed over the soil to prevent weeds and pests."
     },
 
     {
@@ -170,7 +186,8 @@
         "description": [
             "Landscaping can transform a simple yard into an extension of your home, with areas for dining, entertaining, relaxing, or pursuing hobbies. It can also increase property value, improve curb appeal, and create a more functional and enjoyable outdoor space."
         ],
-        "image_urls": ["/images/landscaping575.jpg"]
+        "image_urls": ["/images/landscaping575.jpg"],
+        "image_alt": "A beautifully landscaped garden with various plants, stonework, and trees."
     },
     {
         "id": "d77fe259-d3f0-4cf7-9986-fee727d1ac35",
@@ -180,7 +197,8 @@
         "description": [
             "A renovated garden can appeal to all senses with fragrant plants, soothing water features, varied textures, and vibrant colours, providing a more immersive and therapeutic experience. It can also create a more functional and enjoyable outdoor space."
         ],
-        "image_urls": ["/images/design575.jpg"]
+        "image_urls": ["/images/design575.jpg"],
+        "image_alt": "A beautifully designed garden with diverse plants, and a gravel top layer."
     },
     {
         "id": "003e61ab-3fc9-46f0-80be-7fba311e9684",
@@ -190,7 +208,8 @@
         "description": [
             "weeding flowerbeds is not just about making your garden look good; it's a fundamental practice that directly contributes to the health, vigour, and longevity of your flowers, while also saving you time and effort in the long run and offering personal well-being benefits."
         ],
-        "image_urls": ["/images/weeding575.jpg"]
+        "image_urls": ["/images/weeding575.jpg"],
+        "image_alt": "A before and after weeding of a flowerbed."
     },
     {
         "id": "710d4b95-b807-4ca3-aeaa-35fb7a249dff",
@@ -200,7 +219,8 @@
         "description": [
             "Flowerbeds introduce a dynamic display of colours, shapes, and textures throughout the seasons. This adds visual interest and vibrancy that a simple lawn or hardscape cannot provide, making your garden more captivating."
         ],
-        "image_urls": ["/images/flowerbeds575.jpg"]
+        "image_urls": ["/images/flowerbeds575.jpg"],
+        "image_alt": "An arial shot of a vibrant flowerbed in full bloom, showcasing a variety of plants and colors."
     },
     {
         "id": "0e6bc001-42db-46ec-b8f7-e49b2da22f26",
@@ -210,7 +230,8 @@
         "description": [
             "Tree surgery is a vital investment for maintaining the health, safety, beauty, and value of trees on your property. It's a specialist field that requires professional expertise to achieve the best outcomes and avoid potential hazards."
         ],
-        "image_urls": ["/images/tree-surgeon575.jpg"]
+        "image_urls": ["/images/tree-surgeon575.jpg"],
+        "image_alt": "A tree surgeon wearing a harness, carefully pruning a tree, ensuring its health and safety."
     },
 
     {
@@ -221,7 +242,8 @@
         "description": [
             "By clearing away overgrowth, you can clearly see the 'bones' of the garden – existing pathways, walls, levels, and mature trees or shrubs that might be hidden. This allows you to redesign and define distinct functional areas (e.g., a patio, a flowerbed, a vegetable patch)."
         ],
-        "image_urls": ["/images/overgrown575.jpg"]
+        "image_urls": ["/images/overgrown575.jpg"],
+        "image_alt": "A before-and-after comparison of an overgrown garden, showcasing the restoration process."
     },
     {
         "id": "fd8d0e61-72c1-4293-9a61-d6d4a5292a5c",
@@ -231,6 +253,7 @@
         "description": [
             "Regularly trimmed hedges look smart and well-maintained, contributing significantly to the overall neatness and visual appeal of a garden or property."
         ],
-        "image_urls": ["/images/hedge-cutting575.jpg"]
+        "image_urls": ["/images/hedge-cutting575.jpg"],
+        "image_alt": "A hedge trimmer being held by a worker, trimming a hedge to maintain its shape and health."
     }
 ]

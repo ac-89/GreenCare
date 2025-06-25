@@ -39,6 +39,21 @@ export default function ContactForm() {
                                 />
                             </span>
                         </div>
+                        {/* email */}
+                        <div className="small-12 large-12 columns">
+                            <span className="wpcf7-form-control-wrap your-email">
+                                <input
+                                    type="email"
+                                    name="your-email"
+                                    defaultValue=""
+                                    size="40"
+                                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required wpcf7-validates-as-email"
+                                    aria-required="true"
+                                    aria-invalid="false"
+                                    placeholder="Your Email Address"
+                                />
+                            </span>
+                        </div>
                         <div className="small-12 large-12 columns">
                             <span className="wpcf7-form-control-wrap message">
                                 <textarea
