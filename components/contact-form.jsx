@@ -22,6 +22,7 @@ export default function ContactForm() {
                                     aria-required="true"
                                     aria-invalid="false"
                                     placeholder="Your Name"
+                                    required
                                 />
                             </span>
                         </div>
@@ -36,6 +37,7 @@ export default function ContactForm() {
                                     aria-required="true"
                                     aria-invalid="false"
                                     placeholder="Your Phone Number"
+                                    required
                                 />
                             </span>
                         </div>
@@ -51,6 +53,7 @@ export default function ContactForm() {
                                     aria-required="true"
                                     aria-invalid="false"
                                     placeholder="Your Email Address"
+                                    required
                                 />
                             </span>
                         </div>
@@ -63,6 +66,7 @@ export default function ContactForm() {
                                     className="wpcf7-form-control wpcf7-textarea"
                                     aria-invalid="false"
                                     placeholder="Your message"
+                                    required
                                 ></textarea>
                             </span>
                         </div>
