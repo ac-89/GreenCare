@@ -8,6 +8,9 @@ export const metadata = {
     title: {
         template: '%s | Netlify',
         default: 'Landscaping, Driveways & Garden Services in Dublin | Expert Outdoor Solutions'
+    },
+    verification: {
+        google: '27nSiITNyT23p8flnhHX-JGgI7KOOknexF2yWW0qXoQ'
     }
 };
 
